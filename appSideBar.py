@@ -418,16 +418,16 @@ elif selected_tab == '양봉장 밀원 분포지도':
                     <table style="height: 126px; width: 330px;"> <tbody> <tr>
                         <td style="background-color: #F2952F;">
                         <div style="color: #ffffff;text-align:center;">양봉지명</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['이름'])+"""</tr>
+                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: black;">{}</td>""".format(row['이름'])+"""</tr>
                         <tr><td style="background-color: #F2952F;">
                         <div style="color: #ffffff;text-align:center;">주소</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['주소'])+"""</tr>
+                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: black;">{}</td>""".format(row['주소'])+"""</tr>
                         <tr><td style="background-color: #F2952F;">
                         <div style="color: #ffffff;text-align:center;">인근 꽃정보</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['인근 꽃 정보'])+"""</tr>
+                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: black;">{}</td>""".format(row['인근 꽃 정보'])+"""</tr>
                         <tr><td style="background-color: #F2952F;">
                         <div style="color: #ffffff;text-align:center;">연락처</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['연락처'])+"""</tr>
+                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: black;">{}</td>""".format(row['연락처'])+"""</tr>
                     </tbody> </table> </html> """
 
         iframe = branca.element.IFrame(html=html, width=360, height=200)
