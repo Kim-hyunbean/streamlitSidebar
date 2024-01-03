@@ -69,8 +69,8 @@ def map1(address):
     #### 거리주소 -> 위도/경도 변환 함수 호출
     lati, longit = geocoding(address)
 
-    display_df = pd.read_csv('/content/drive/MyDrive/빅프csv/양봉qhd.csv',encoding="cp949")
-    display_df2 = pd.read_csv('/content/drive/MyDrive/빅프csv/서울시소방서위치.csv',encoding="cp949")
+    display_df = pd.read_csv('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EC%96%91%EB%B4%89qhd.csv',encoding="cp949")
+    display_df2 = pd.read_csv('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%86%8C%EB%B0%A9%EC%84%9C%EC%9C%84%EC%B9%98.csv',encoding="cp949")
 
     distance = []
     patient = (lati, longit)
@@ -170,8 +170,8 @@ def map2(address1):
     #### 거리주소 -> 위도/경도 변환 함수 호출
     lati, longit = geocoding(address1)
 
-    display_df = pd.read_csv('/content/drive/MyDrive/빅프csv/양봉qhd.csv',encoding="cp949")
-    display_df2 = pd.read_csv('/content/drive/MyDrive/빅프csv/서울시소방서위치.csv',encoding="cp949")
+    display_df = pd.read_csv('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EC%96%91%EB%B4%89qhd.csv',encoding="cp949")
+    display_df2 = pd.read_csv('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%86%8C%EB%B0%A9%EC%84%9C%EC%9C%84%EC%B9%98.csv',encoding="cp949")
 
     distance = []
     patient = (lati, longit)
@@ -296,7 +296,7 @@ address = '서울특별시 종로구 성균관로 25-2'
 
 st.set_page_config(layout="wide")
 
-st.image('/content/drive/MyDrive/빅프csv/MicrosoftTeams-image (1).png', width=200)
+st.image('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EB%A1%9C%EA%B3%A0.png', width=200)
 # tabs 만들기
 
 # 세션 상태 초기화
@@ -385,8 +385,8 @@ elif selected_tab == '양봉장 밀원 분포지도':
 
     st.markdown("## 양봉장 밀원 분포지도")
 
-    display_df = pd.read_csv('/content/drive/MyDrive/빅프csv/양봉qhd.csv',encoding="cp949")
-    display_df2 = pd.read_csv('/content/drive/MyDrive/빅프csv/꽃지도.csv',encoding="cp949")
+    display_df = pd.read_csv('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EC%96%91%EB%B4%89qhd.csv',encoding="cp949")
+    display_df2 = pd.read_csv('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EA%BD%83%EC%A7%80%EB%8F%84.csv',encoding="cp949")
 
     distance2 = []
 
