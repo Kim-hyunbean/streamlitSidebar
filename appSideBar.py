@@ -296,7 +296,7 @@ address = '서울특별시 종로구 성균관로 25-2'
 
 st.set_page_config(layout="wide")
 
-st.image('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/%EB%A1%9C%EA%B3%A0.png', width=200)
+st.image('https://raw.githubusercontent.com/Kim-hyunbean/streamlit/main/logo.png', width=200)
 # tabs 만들기
 
 # 세션 상태 초기화
