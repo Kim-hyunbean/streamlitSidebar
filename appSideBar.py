@@ -441,15 +441,15 @@ elif selected_tab == '양봉장 밀원 분포지도':
         html = """<!DOCTYPE html>
                 <html>
                     <table style="height: 126px; width: 330px;"> <tbody> <tr>
-                        <td style="background-color: #F2952F;">
+                        <td style="background-color: #FF90E8;">
                         <div style="color: #ffffff;text-align:center;">이름</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['이름'])+"""</tr>
-                        <tr><td style="background-color: #F2952F;">
+                        <td style="width: 230px;background-color: #EDEDED;text-align: center; color: white;">{}</td>""".format(row['이름'])+"""</tr>
+                        <tr><td style="background-color: #FF90E8;">
                         <div style="color: #ffffff;text-align:center;">주소</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['주소'])+"""</tr>
-                        <tr><td style="background-color: #F2952F;">
+                        <td style="width: 230px;background-color: #EDEDED;text-align: center; color: white;">{}</td>""".format(row['주소'])+"""</tr>
+                        <tr><td style="background-color: #FF90E8;">
                         <div style="color: #ffffff;text-align:center;">꽃</div></td>
-                        <td style="width: 230px;background-color: #FFBF00;text-align: center; color: white;">{}</td>""".format(row['꽃'])+"""</tr>
+                        <td style="width: 230px;background-color: #EDEDED;text-align: center; color: white;">{}</td>""".format(row['꽃'])+"""</tr>
                     </tbody> </table> </html> """
 
         iframe = branca.element.IFrame(html=html, width=350, height=150)
